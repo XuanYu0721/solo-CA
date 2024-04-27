@@ -44,7 +44,6 @@ class Product(models.Model):
         app_label = 'product'
     
     def save(self, *args, **kwargs):
-        # 更新时自动设置 updated_at 字段
         if not self._state.adding:
             self.updated_at = timezone.now()
         super(Product, self).save(*args, **kwargs)
