@@ -1,0 +1,35 @@
+<!-- templates/order_detail.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Order Details</h2>
+<p>Order ID: {{ order.order_id }}</p>
+<p>User: {{ order.user }}</p>
+<p>Address: {{ order.addr }}</p>
+<p>Payment Method: {{ order.get_pay_method_display }}</p>
+<p>Total Quantity: {{ order.total_quantity }}</p>
+<p>Total Price: {{ order.total_price }}</p>
+<p>Shipping Fee: {{ order.shipping_fee }}</p>
+<p>Order Status: {{ order.get_order_status_display }}</p>
+
+<h3>Products in this Order</h3>
+<ul>
+  {% for product in order_products %}
+    <li>{{ product.product.name }} - {{ product.quantity }} at {{ product.price }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
+
+{% if request.user.is_authenticated %}
+    <!-- Common content for authenticated users -->
+
+    {% if request.user.has_perm('order.can_view_order') %}
+        <!-- Content for users with the 'can_view_order' permission -->
+    {% endif %}
+
+    {% if request.user.is_superuser %}
+        <!-- Content for superusers -->
+    {% endif %}
+{% else %}
+    <!-- Content for guests -->
+{% endif %}

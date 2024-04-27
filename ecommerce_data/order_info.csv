@@ -1,0 +1,28 @@
+order_number,user_name,address,pay_method,total_quantity,total_price,shipping_fee,order_status
+I0001,jwealleans4,hsaterthwait4@independent.com,Apple pay,1,130,0,Delivered
+I0002,aread5,isharrocks5@is.gd,Credit or debit card,3,106,0,Delivered
+I0003,mhoviek,tcommanderk@biblegateway.com,Apple pay,3,54,0,Delivered
+I0004,skarlsenl,pbordessal@mediafire.com,PayPal,4,340,0,Delivered
+I0005,czealym,htopm@squarespace.com,Apple pay,2,72,0,Delivered
+I0006,hcammiemilen,jnaismithn@technorati.com,Apple pay,3,77,0,Delivered
+I0007,dreideo,spillero@chron.com,Credit or debit card,3,124,0,Delivered
+I0008,hcady11,vgalvin11@nih.gov,Apple pay,1,117,0,Delivered
+I0009,hciciura12,zelderfield12@pagesperso-orange.fr,Apple pay,2,50,0,Delivered
+I0010,gpeare13,mpopworth13@salon.com,PayPal,4,127,0,Delivered
+I0011,fhickeringill14,ichapling14@engadget.com,Credit or debit card,2,167,0,Shipped
+I0012,lvarney15,lharryman15@tripod.com,Apple pay,3,258,0,Shipped
+I0013,lsimmins16,cscammell16@patch.com,Apple pay,2,64,0,Shipped
+I0014,cmarshalleck17,adimbleby17@tripod.com,Credit or debit card,1,35,0,Shipped
+I0015,lmcbeith18,acalafato18@comsenz.com,Credit or debit card,3,75,0,Shipped
+I0016,ymatuskaz,fgonzaloz@photobucket.com,PayPal,1,90,0,Shipped
+I0017,rokenden10,lleggin10@addthis.com,Apple pay,5,152,0,Shipped
+I0018,hcady11,vgalvin11@nih.gov,Apple pay,2,74,0,Shipped
+I0019,pmoxted1m,hfereday1m@w3.org,Credit or debit card,1,68,0,Pending
+I0020,rcawthron1n,iklemencic1n@blog.com,PayPal,1,22,2.5,Pending
+I0021,srushbury1o,pneising1o@people.com.cn,Apple pay,5,62.7,0,Cancelled
+I0022,anorthin1p,dloadwick1p@telegraph.co.uk,Apple pay,1,295,0,Pending
+I0023,bmosson1q,jrussi1q@sohu.com,Apple pay,1,156,0,Pending
+I0024,bsteel1k,mpidwell1k@mit.edu,Gift card,1,148,0,Pending
+I0025,wpatek1l,jcrone1l@fotki.com,Credit or debit card,3,83,0,Pending
+I0026,pmoxted1m,hfereday1m@w3.org,Credit or debit card,1,155,0,Pending
+,,,,,,,

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Beautyglow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <div class="nav">
+      <div class="logo">Beautyglow</div>
+      <div class="menu">
+        <a href="#offer">Offer</a>
+        <a href="#brand">Brand</a>
+        <a href="#fragrance">Fragrance</a>
+        <a href="#skincare">Skincare</a>
+        <a href="#makeup">Makeup</a>
+        <a href="#hair">Hair</a>
+        <a href="#bath&body">Bath & Body</a>
+      <div class="cart">Cart <span class="cart-items">3</span></div>
+      </div>
+    </div>
+      <h1>Product Search</h1>
+    <form action="{% url 'search_results' %}" method="get">
+        <label for="keywords"></label>
+        <input type="text" id="keywords" name="keywords" placeholder="Search for a product or brand">
+        <button type="submit">Search</button>
+    </form>
+    
+ 
+    <div class="main-display">
+      <img src="./main.jpg" alt="main picture" class="picture">
+    </div>
+  </div>
+
+  <div class="promotion-section">
+    <h2>Promotion</h2>
+    <div class="products">
+      <div class="product">
+        <img src="./mirto-di-panarea.jpg" alt="Mirto di Panarea">
+        <p>Acqua di Parma</p>
+        <p>Mirto di Panarea</p>
+        <p>£84</p>
+      </div>
+      <div class="product">
+        <img src="./black-opium-perfume-gift-set.jpg" alt="Black Opium Perfume Gift Set">
+        <p>Yves Saint Laurent</p>
+        <p>Black Opium Perfume Gift Set</p>
+        <p>£21</p>
+      </div>
+      <div class="product">
+        <img src="./all-nighter-long-lasting-makeup-setting-spray.jpg" alt="All Nighter Long-Lasting Makeup Setting Spray">
+        <p>Urban Decay</p>
+        <p>All Nighter Long-Lasting Makeup Setting Spray</p>
+        <p>£82</p>
+      </div>
+
+      
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Server Error</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>500 - Internal Server Error</h1>
+    <p>Oops! Something went wrong on our end. Please go back and try again or visit this page later.</p>
+    <p>If you think this is a server error, please contact the <a href="mailto:support@example.com">support team</a>.</p>
+    <a href="{% url 'home' %}">Go to Homepage</a>
+</body>
+</html>
